@@ -1,0 +1,6 @@
+pygame
+PyOpenGL
+numpy
+opencv-python
+mss
+mediapipe
