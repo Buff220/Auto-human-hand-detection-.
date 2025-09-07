@@ -27,7 +27,7 @@ def handle_udp():
 threading.Thread(target=handle_udp,daemon=True).start()
 
 # --- Video capture setup (reader thread will only read frames) ---
-vid = cv2.VideoCapture("video.mp4")
+vid = cv2.VideoCapture("hand.mp4")
 if not vid.isOpened():
     raise RuntimeError("Cannot open video file mm.mp4")
 
